@@ -13,7 +13,7 @@ You will have to use the development data to evaluate your approach's performanc
 
 
 ## Questions/Issues
-Please post all questions to the [module's Google group](https://groups.google.com/a/sheffield.ac.uk/forum/#!forum/com4513-6513-2019-group).
+Please post all questions to the [module's Google group](https://groups.google.com/a/sheffield.ac.uk/forum/#!forum/com4513-6513-2018-group).
 
 
 ## Getting the datasets
