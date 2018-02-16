@@ -31,7 +31,7 @@ The CWI datasets are included as submodules and you must download them by runnin
 
 ## Reading the datasets
 
-All the requiered information is provided in a column format. A complete description is given in the official shared task [page] (https://sites.google.com/view/cwisharedtask2018/datasets). Since we are only interested in the binary classification tas, we can discard the last column (i.e., gold-standard probability). 
+All the requiered information is provided in a column format. A complete description is given in the [official shared task page](https://sites.google.com/view/cwisharedtask2018/datasets). Since we are only interested in the binary classification task, we can discard the last column (i.e., gold-standard probability). 
 
 An example of how the data could be read is given in ``example.py``
 
