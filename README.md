@@ -31,6 +31,8 @@ To download the library files and the datasets, you should clone the repository 
 
 All the required information is provided in a column format. A complete description is given in the [official shared task page](https://sites.google.com/view/cwisharedtask2018/datasets). Since we are only interested in the binary classification task, we can discard the last column (i.e., gold-standard probability). 
 
+The English dataset (training and development) is originally divided in three files, corresponding to the source they were collected from. You are welcome to use them as such, but we are also providing them joined together in a single file for training and a single one for development.
+
 An example of how the data could be read is given in ``dataset.py``
 
 
@@ -45,6 +47,6 @@ The ``report_score`` function in ``utils/scorer.py`` will be used to assess the 
 
     report_score(actual, predicted)
 
-This will print the macro-F1 score for the positive label ('complex' = 1).
+This will print the macro-F1 score.
 
-We have implemented a simple classifier as baseline. This classifier uses Logistic Regression to learn a prediction model that relies in two features from the target word/phrase: its length in characters and its length in tokens. The code for the baseline can be found in ``baseline.py``. On the development data, this baseline achieves macro-F1 scores of 0.69 and 0.72 for English and Spanish, respectively. You should aim to beat these scores!
+We have implemented a simple classifier as baseline. This classifier uses Logistic Regression to learn a prediction model that relies on two features from the target word/phrase: its length in characters and its length in tokens. The code for the baseline can be found in ``baseline.py``. On the development data, this baseline achieves macro-F1 scores of 0.69 and 0.72 for English and Spanish, respectively. You should aim to beat these scores!
