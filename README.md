@@ -4,7 +4,7 @@ This git repository contains a few utilities to support students on the COM4513 
 
 The task consists of predicting which words could be **difficult** and which could be *easy* for a non-native speaker, e.g.:
 
-> "Both China and the Philippines <span style="color:red">flexed</span> their <span style="color:blue">muscles</span> on Monday."
+> "Both China and the Philippines **flexed** their *muscles* on Monday."
 
 For details of the task, see [CWI Shared Task 2018](https://sites.google.com/view/cwisharedtask2018/)
 
