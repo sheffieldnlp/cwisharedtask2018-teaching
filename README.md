@@ -2,6 +2,10 @@
 
 This git repository contains a few utilities to support students on the COM4513 and COM6513 modules at the University of Sheffield attempt the Complex Word Identification Shared Task 2018.
 
+The task consists of predicting which words could be <span style="color:red">difficult</span> and which could be <span style="color:blue">easy</span> for a non-native speaker, e.g.:
+
+> "Both China and the Philippines <span style="color:red">flexed</span> their <span style="color:blue">muscles</span> on Monday."
+
 For details of the task, see [CWI Shared Task 2018](https://sites.google.com/view/cwisharedtask2018/)
 
 For this class project, we will be tackling the **binary classification task** for the **monolingual English** and **monolingual Spanish** tracks.
