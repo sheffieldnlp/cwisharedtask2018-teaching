@@ -47,6 +47,6 @@ The ``report_score`` function in ``utils/scorer.py`` will be used to assess the 
 
     report_score(actual, predicted)
 
-This will print the macro-F1 score.
+A standard method for evaluating a classifier is to calculate the F1 score of its predictions. In our case, we could compute the F1 score for each class, independently. Since we would like an overall score that considers the performance in both classes, ``report_score`` will print the macro-F1 score. As you will notice, there is some imbalance between the classes (the number of *complex* instances is lower than that of *simple* instances). As such, we use macro-F1 as an overall performance metric to avoid favouring the bigger class. While this is the metric that will be used to assess your classifier, you can get more detailed per-class scores calling ``report_score`` with parameter ``detailed=True``.
 
 We have implemented a simple classifier as baseline. This classifier uses Logistic Regression to learn a prediction model that relies on two features from the target word/phrase: its length in characters and its length in tokens. The code for the baseline can be found in ``baseline.py``. On the development data, this baseline achieves macro-F1 scores of 0.69 and 0.72 for English and Spanish, respectively. You should aim to beat these scores!
